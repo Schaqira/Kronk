@@ -1,0 +1,18 @@
+/* Zmiana tła strony */
+body {
+    background-color: darkslateblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1 {
+    color: azure;
+    font-size: x-large;
+}
+p {
+    color: azure;
+    font-size: medium;
+}
+.obroc {
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(360deg);
+}
